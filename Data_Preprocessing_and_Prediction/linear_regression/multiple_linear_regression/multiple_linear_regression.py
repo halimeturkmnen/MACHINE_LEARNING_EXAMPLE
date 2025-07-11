@@ -5,7 +5,7 @@ import pandas as pd
 
 #2.veri onisleme
 #2.1.veri yukleme
-veriler = pd.read_csv('veriler.csv')
+veriler = pd.read_csv(r'C:\Users\SD\OneDrive\Masaüstü\machine_learning_example\Data_Preprocessing_and_Prediction\veri_on_isleme\veriler.csv')
 #pd.read_csv("veriler.csv")
 #test
 print(veriler)

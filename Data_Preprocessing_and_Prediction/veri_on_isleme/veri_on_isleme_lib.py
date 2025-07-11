@@ -3,7 +3,7 @@ import numpy as np # veri işleme için (büyük veri seti, matematiksel işleml
 import matplotlib.pyplot as plt # grafik çizimi için
 
 # Veri setini yükleme
-veriler = pd.read_csv(r"C:\Users\SD\OneDrive\Masaüstü\machine_learning_example\eksikveriler.csv") # csv dosyası dizini 
+veriler = pd.read_csv(r"C:\Users\SD\OneDrive\Masaüstü\machine_learning_example\Data_Preprocessing_and_Prediction\veri_on_isleme\eksikveriler.csv") # csv dosyası dizini 
 # dosya yolunda / yerine; \\ kullanabilirsiniz veya r"" kullanabilirsiniz veya / kullanabilirsiniz
 print (veriler)
 boy = veriler [["boy"]]

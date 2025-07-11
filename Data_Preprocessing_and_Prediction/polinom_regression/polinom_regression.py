@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # veri yukleme
-veriler = pd.read_csv('maaslar.csv')
+veriler = pd.read_csv(r'C:\Users\SD\OneDrive\Masaüstü\machine_learning_example\Data_Preprocessing_and_Prediction\polinom_regression\maaslar.csv')
 
 x = veriler.iloc[:,1:2]
 y = veriler.iloc[:,2:]

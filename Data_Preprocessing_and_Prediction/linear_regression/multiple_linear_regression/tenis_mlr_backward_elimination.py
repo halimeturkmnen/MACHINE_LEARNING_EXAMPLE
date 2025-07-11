@@ -6,7 +6,7 @@ import pandas as pd
 #2. Veri Onisleme
 
 #2.1. Veri Yukleme
-veriler = pd.read_csv(r'C:\Users\SD\OneDrive\Masaüstü\machine_learning_example\odev_tenis.csv')
+veriler = pd.read_csv(r'C:\Users\SD\OneDrive\Masaüstü\machine_learning_example\Data_Preprocessing_and_Prediction\linear_regression\multiple_linear_regression\odev_tenis.csv')
 #pd.read_csv("veriler.csv")
 
 

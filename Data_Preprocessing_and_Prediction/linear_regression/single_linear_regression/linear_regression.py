@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-veriler = pd.read_csv(r"C:\Users\SD\OneDrive\Masaüstü\machine_learning_example\satislar.csv")
+veriler = pd.read_csv(r"C:\Users\SD\OneDrive\Masaüstü\machine_learning_example\Data_Preprocessing_and_Prediction\linear_regression\single_linear_regression\satislar.csv")
 print(veriler)
 
 aylar = veriler[["Aylar"]]
